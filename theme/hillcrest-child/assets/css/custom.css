@@ -1,0 +1,485 @@
+/* ==========================================================================
+   Ferme Hillcrest — Design System
+   Elegant, upscale, editorial — refined countryside luxury
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. BASE TYPOGRAPHY
+   -------------------------------------------------------------------------- */
+
+body {
+    font-family: var(--hc-font-body);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--hc-text);
+    background-color: var(--hc-warm-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--hc-font-heading);
+    color: var(--hc-text-heading);
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.375rem; }
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: var(--hc-sage-dark);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--hc-blush-dark);
+}
+
+/* --------------------------------------------------------------------------
+   2. LAYOUT & SPACING
+   -------------------------------------------------------------------------- */
+
+.hc-section {
+    padding: var(--hc-space-lg) 0;
+}
+
+.hc-section-narrow {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--hc-space-md);
+}
+
+.hc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--hc-space-md);
+}
+
+/* Generous white space between sections */
+.elementor-section {
+    padding-top: var(--hc-space-lg);
+    padding-bottom: var(--hc-space-lg);
+}
+
+/* --------------------------------------------------------------------------
+   3. BUTTONS
+   -------------------------------------------------------------------------- */
+
+.hc-btn,
+.elementor-button {
+    font-family: var(--hc-font-body);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 14px 36px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Primary — blush background */
+.hc-btn-primary,
+.elementor-button.elementor-size-md {
+    background-color: var(--hc-blush);
+    color: #fff;
+    border: 2px solid var(--hc-blush);
+}
+
+.hc-btn-primary:hover,
+.elementor-button.elementor-size-md:hover {
+    background-color: var(--hc-blush-dark);
+    border-color: var(--hc-blush-dark);
+    color: #fff;
+}
+
+/* Secondary — outlined sage */
+.hc-btn-secondary {
+    background-color: transparent;
+    color: var(--hc-sage-dark);
+    border: 2px solid var(--hc-sage);
+}
+
+.hc-btn-secondary:hover {
+    background-color: var(--hc-sage);
+    color: #fff;
+}
+
+/* Gold accent button */
+.hc-btn-gold {
+    background-color: var(--hc-gold);
+    color: #fff;
+    border: 2px solid var(--hc-gold);
+}
+
+.hc-btn-gold:hover {
+    background-color: var(--hc-gold-light);
+    border-color: var(--hc-gold-light);
+    color: var(--hc-text-heading);
+}
+
+/* --------------------------------------------------------------------------
+   4. HEADER & NAVIGATION
+   -------------------------------------------------------------------------- */
+
+.site-header,
+.ast-primary-header {
+    background-color: var(--hc-ivory);
+    border-bottom: 1px solid var(--hc-blush-light);
+}
+
+.main-navigation a,
+.ast-header-navigation a {
+    font-family: var(--hc-font-body);
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--hc-text);
+    transition: color 0.3s ease;
+}
+
+.main-navigation a:hover,
+.ast-header-navigation a:hover {
+    color: var(--hc-blush-dark);
+}
+
+/* Language switcher styling */
+.hillcrest-lang-switcher a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--hc-sage-dark);
+    padding: 6px 14px;
+    border: 1px solid var(--hc-sage);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.hillcrest-lang-switcher a:hover {
+    background-color: var(--hc-sage);
+    color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   5. HERO SECTION
+   -------------------------------------------------------------------------- */
+
+.hc-hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hc-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.35) 100%
+    );
+    z-index: 1;
+}
+
+.hc-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: var(--hc-space-md);
+}
+
+.hc-hero h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: var(--hc-space-sm);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hc-hero p {
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.8;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* --------------------------------------------------------------------------
+   6. FOOTER
+   -------------------------------------------------------------------------- */
+
+.site-footer,
+.ast-footer {
+    background-color: var(--hc-text-heading);
+    color: var(--hc-cream);
+    padding: var(--hc-space-lg) 0 var(--hc-space-md);
+}
+
+.site-footer a {
+    color: var(--hc-blush-light);
+}
+
+.site-footer a:hover {
+    color: var(--hc-blush);
+}
+
+/* Social icons in footer */
+.hc-social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 1.25rem;
+    color: var(--hc-cream);
+    transition: color 0.3s ease;
+}
+
+.hc-social-icons a:hover {
+    color: var(--hc-blush);
+}
+
+/* Newsletter signup in footer */
+.hc-newsletter-footer {
+    text-align: center;
+    padding: var(--hc-space-md) 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: var(--hc-space-md);
+}
+
+.hc-newsletter-footer input[type="email"] {
+    font-family: var(--hc-font-body);
+    padding: 12px 20px;
+    border: 1px solid var(--hc-blush-light);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--hc-cream);
+    width: 280px;
+    margin-right: 8px;
+}
+
+.hc-newsletter-footer input[type="email"]::placeholder {
+    color: var(--hc-blush-light);
+}
+
+/* --------------------------------------------------------------------------
+   7. WOOCOMMERCE OVERRIDES
+   -------------------------------------------------------------------------- */
+
+/* Product cards */
+.woocommerce ul.products li.product {
+    text-align: center;
+    border: 1px solid var(--hc-blush-light);
+    border-radius: 4px;
+    padding: var(--hc-space-md);
+    background-color: var(--hc-ivory);
+    transition: box-shadow 0.3s ease;
+}
+
+.woocommerce ul.products li.product:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    font-family: var(--hc-font-heading);
+    font-size: 1.25rem;
+    color: var(--hc-text-heading);
+}
+
+.woocommerce ul.products li.product .price {
+    font-family: var(--hc-font-body);
+    color: var(--hc-sage-dark);
+    font-size: 1.1rem;
+}
+
+/* Add to cart button */
+.woocommerce ul.products li.product .button,
+.woocommerce .single_add_to_cart_button {
+    background-color: var(--hc-blush);
+    color: #fff;
+    border: 2px solid var(--hc-blush);
+    border-radius: 2px;
+    font-family: var(--hc-font-body);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 10px 24px;
+}
+
+.woocommerce ul.products li.product .button:hover,
+.woocommerce .single_add_to_cart_button:hover {
+    background-color: var(--hc-blush-dark);
+    border-color: var(--hc-blush-dark);
+}
+
+/* Seasonal out-of-stock banner */
+.hc-seasonal-notice {
+    background-color: var(--hc-cream);
+    border: 1px solid var(--hc-gold-light);
+    border-left: 4px solid var(--hc-gold);
+    padding: var(--hc-space-sm) var(--hc-space-md);
+    margin: var(--hc-space-md) 0;
+    font-family: var(--hc-font-heading);
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--hc-text);
+}
+
+/* --------------------------------------------------------------------------
+   8. FORMS (Contact Form 7)
+   -------------------------------------------------------------------------- */
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea,
+.wpcf7 select {
+    font-family: var(--hc-font-body);
+    padding: 12px 16px;
+    border: 1px solid var(--hc-blush-light);
+    border-radius: 2px;
+    background-color: var(--hc-ivory);
+    color: var(--hc-text);
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.wpcf7 input:focus,
+.wpcf7 textarea:focus {
+    border-color: var(--hc-sage);
+    outline: none;
+}
+
+.wpcf7 input[type="submit"] {
+    background-color: var(--hc-sage);
+    color: #fff;
+    border: 2px solid var(--hc-sage);
+    font-family: var(--hc-font-body);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 14px 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wpcf7 input[type="submit"]:hover {
+    background-color: var(--hc-sage-dark);
+    border-color: var(--hc-sage-dark);
+}
+
+/* --------------------------------------------------------------------------
+   9. GALLERY (Our Peonies — masonry grid)
+   -------------------------------------------------------------------------- */
+
+.hc-peony-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--hc-space-md);
+}
+
+.hc-peony-card {
+    background-color: var(--hc-ivory);
+    border: 1px solid var(--hc-blush-light);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hc-peony-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.hc-peony-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.hc-peony-card-info {
+    padding: var(--hc-space-sm) var(--hc-space-md);
+    text-align: center;
+}
+
+.hc-peony-card-info h3 {
+    font-family: var(--hc-font-heading);
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.hc-peony-card-info .hc-peony-meta {
+    font-size: 0.85rem;
+    color: var(--hc-text-light);
+    font-style: italic;
+}
+
+/* --------------------------------------------------------------------------
+   10. RESPONSIVE
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    h1 { font-size: 2.25rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.375rem; }
+
+    .hc-hero {
+        min-height: 60vh;
+    }
+
+    .hc-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hc-btn,
+    .elementor-button {
+        padding: 12px 28px;
+        font-size: 0.8rem;
+    }
+
+    .hc-peony-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: var(--hc-space-sm);
+    }
+
+    .hc-newsletter-footer input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.875rem; }
+    h2 { font-size: 1.5rem; }
+
+    .hc-hero {
+        min-height: 50vh;
+    }
+
+    .hc-hero h1 {
+        font-size: 2rem;
+    }
+
+    .elementor-section {
+        padding-top: var(--hc-space-md);
+        padding-bottom: var(--hc-space-md);
+    }
+}

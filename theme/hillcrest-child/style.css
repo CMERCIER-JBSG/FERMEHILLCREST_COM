@@ -1,0 +1,53 @@
+/*
+ Theme Name:   Hillcrest Child
+ Theme URI:    https://fermehillcrest.com
+ Description:  Astra child theme for Ferme Hillcrest S.E.N.C. — premium peony farm in Knowlton, Quebec
+ Author:       Ferme Hillcrest S.E.N.C.
+ Author URI:   https://fermehillcrest.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  hillcrest-child
+*/
+
+/* ==========================================================================
+   Design Tokens — Ferme Hillcrest
+   ========================================================================== */
+
+:root {
+    /* Primary Palette */
+    --hc-blush:        #E8B4B8;
+    --hc-blush-light:  #F2D4D6;
+    --hc-blush-dark:   #C4878C;
+
+    /* Neutrals */
+    --hc-cream:        #FDF8F0;
+    --hc-ivory:        #FFFEF9;
+    --hc-warm-white:   #FAFAF7;
+
+    /* Accent */
+    --hc-sage:         #9CAF88;
+    --hc-sage-light:   #C5D4B8;
+    --hc-sage-dark:    #6B7F5A;
+
+    /* Gold */
+    --hc-gold:         #C5A55A;
+    --hc-gold-light:   #E0D0A0;
+
+    /* Text */
+    --hc-text:         #3A3A3A;
+    --hc-text-light:   #6B6B6B;
+    --hc-text-heading: #2C2C2C;
+
+    /* Typography */
+    --hc-font-heading: 'Cormorant Garamond', Georgia, serif;
+    --hc-font-body:    'Lato', 'Helvetica Neue', sans-serif;
+
+    /* Spacing */
+    --hc-space-xs:     0.5rem;
+    --hc-space-sm:     1rem;
+    --hc-space-md:     2rem;
+    --hc-space-lg:     4rem;
+    --hc-space-xl:     6rem;
+}

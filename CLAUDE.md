@@ -34,10 +34,26 @@ WordPress website for Ferme Hillcrest S.E.N.C., a premium peony farm in Knowlton
 ## Repository Structure
 ```
 FERMEHILLCREST_COM/
+├── theme/
+│   └── hillcrest-child/       ← Astra child theme (zip and install in WP)
+│       ├── style.css          ← Theme metadata + CSS design tokens
+│       ├── functions.php      ← Menus, fonts, Polylang, WooCommerce support
+│       └── assets/css/custom.css ← Full design system
+│
+├── setup/
+│   ├── SETUP_GUIDE.md        ← Step-by-step LocalWP setup instructions
+│   ├── install-plugins.sh    ← WP-CLI: install all 11 plugins
+│   └── create-pages.sh       ← WP-CLI: create all 18 bilingual pages
+│
+├── content/
+│   ├── pages-fr.md           ← French page content (copy-paste for Elementor)
+│   └── pages-en.md           ← English page content (copy-paste for Elementor)
+│
 ├── docs/
-│   └── PROJECT_BRIEF.md    ← Full website development brief
-├── CLAUDE.md               ← This file
-└── README.md               ← (future)
+│   └── PROJECT_BRIEF.md      ← Full website development brief
+│
+├── CLAUDE.md                  ← This file
+└── .gitignore
 ```
 
 ## Development Phases

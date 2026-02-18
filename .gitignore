@@ -1,0 +1,33 @@
+# WordPress core (if ever added locally)
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-config.php
+wp-config-local.php
+
+# LocalWP
+local-site.json
+*.sql
+*.sql.gz
+
+# Dependencies
+node_modules/
+vendor/
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+~$*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+debug.log
