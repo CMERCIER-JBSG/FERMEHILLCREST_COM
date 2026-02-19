@@ -7,6 +7,13 @@ WordPress website for Ferme Hillcrest S.E.N.C., a premium peony farm in Knowlton
 - **French (default):** fermehillcrest.com/
 - **English:** fermehillcrest.com/en/
 - **Related site:** jbskinsavvi.com (skincare boutique in Knowlton)
+- **Existing site:** Squarespace (being migrated to WordPress)
+
+## Contact Info (from existing site)
+- **Address:** 20 Chemin Tibbits Hill, Knowlton, QC, J0E 1V0, Canada
+- **Phone:** 514-951-3205
+- **Email:** fermehillcrest@gmail.com
+- **Instagram:** @fermehillcrest
 
 ## Tech Stack
 - **CMS:** WordPress (latest stable)

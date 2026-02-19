@@ -212,19 +212,34 @@ fermehillcrest.com/en/    → English
 
 ---
 
-## 9. Content Still Needed from Client
+## 9. Known Information (from existing Squarespace site)
 
-- [ ] Farm email address for contact form notifications
-- [ ] High-resolution farm and peony photography
-- [ ] List of peony varieties (names, colors, bloom times, fragrance)
-- [ ] Pricing (bouquets, stems, bundles, roots)
+Extracted from the current fermehillcrest.com Squarespace site:
+
+- **Farm address:** 20 Chemin Tibbits Hill, Knowlton, QC, J0E 1V0, Canada
+- **Phone:** 514-951-3205
+- **Email:** fermehillcrest@gmail.com
+- **Instagram:** @fermehillcrest
+- **Navigation:** Magasiner, Notre histoire, Contactez-nous, La vie parmi les pivoines
+- **Product catalog:** 22 peony root varieties ($34–$86) + 1 signature bouquet ($75)
+- **Shipping:** Root pre-sales, shipments begin mid-October, farm pickup available
+- **Existing copy:** Full bilingual FR/EN content for homepage, about, newsletter (see `content/` folder)
+
+## 10. Content Still Needed
+
+- [x] Farm email address → fermehillcrest@gmail.com
+- [x] Farm mailing/physical address → 20 Chemin Tibbits Hill, Knowlton, QC, J0E 1V0
+- [x] Social media handles → Instagram: @fermehillcrest
+- [x] Pricing (roots) → $34–$86 per root (see full catalog in content/pages-fr.md)
+- [ ] High-resolution farm and peony photography (from Squarespace media library)
+- [ ] Peony variety details (colors, bloom times, fragrance — for gallery page)
 - [ ] JB SkinSavvi boutique address in Knowlton
-- [ ] Social media handles (Instagram, Facebook)
-- [ ] Logo files (or logo design brief)
-- [ ] Farm mailing/physical address
+- [ ] Logo files (or export from Squarespace)
+- [ ] Facebook page (if exists)
 - [ ] Hosting provider decision (Phase 2)
 - [ ] Newsletter platform preference: MailPoet or Mailchimp
 
 ---
 
-*Brief prepared: February 18, 2026 | Ferme Hillcrest S.E.N.C., Knowlton, Quebec*
+*Brief prepared: February 18, 2026 | Updated: February 19, 2026*
+*Ferme Hillcrest S.E.N.C., Knowlton, Quebec*

@@ -1,6 +1,6 @@
 # Contenu des Pages — Français
 
-Ce fichier contient tout le contenu final pour les 9 pages en français.
+Contenu extrait du site Squarespace existant (fermehillcrest.com) + nouveau contenu du brief.
 Prêt à copier-coller dans Elementor.
 
 ---
@@ -11,16 +11,17 @@ Prêt à copier-coller dans Elementor.
 Ferme Hillcrest S.E.N.C.
 
 ### Sous-titre Hero
-Pivoines de qualité supérieure — Knowlton, Cantons-de-l'Est
+Ferme de pivoines à Knowlton, au cœur des Cantons-de-l'Est
 
-### Texte d'introduction
-Bienvenue à la Ferme Hillcrest — nichée au cœur de Knowlton, au Québec, dans les magnifiques Cantons-de-l'Est. Entourés des collines verdoyantes et des rives paisibles du lac Brome, nous cultivons certaines des plus belles pivoines au Canada.
+### Texte d'introduction (du site existant)
+Perchée dans les vallons paisibles de Knowlton, dans la région de Lac-Brome, notre ferme de pivoines est un véritable havre de beauté et de sérénité. À la fin du printemps et au début de l'été, les champs s'illuminent de fleurs majestueuses aux teintes douces et vibrantes, cultivées avec soin, passion et dans le plus grand respect de la nature.
 
-**Du champ à vos mains — découvrez la beauté de la saison.**
+### Citation d'ambiance
+*Ici, le temps ralentit. On s'imprègne du silence, du parfum des fleurs, de la magie de l'instant.*
 
 ### Boutons CTA
-- **Bouton 1:** Acheter des fleurs → lien vers /acheter-des-fleurs-fraiches/
-- **Bouton 2:** Pour les fleuristes → lien vers /pour-les-fleuristes/
+- **Bouton 1:** Magasiner des pivoines → lien vers /magasiner/
+- **Bouton 2:** Notre histoire → lien vers /notre-histoire/
 
 ---
 
@@ -29,36 +30,69 @@ Bienvenue à la Ferme Hillcrest — nichée au cœur de Knowlton, au Québec, da
 ### Titre
 Notre Histoire
 
-### Contenu
-La Ferme Hillcrest S.E.N.C. est une ferme familiale de pivoines enracinée dans le magnifique paysage de Knowlton — un village historique des Cantons-de-l'Est, fondé par les Loyalistes de l'Empire-Uni.
+### Section : Ce qu'on fait
+Tout a commencé avec la racine de pivoine, précieuse alliée que nous utilisons dans nos soins. De là est née l'envie d'aller plus loin — de la cultiver nous-mêmes, pour mieux comprendre sa force, sa beauté et son lien profond avec la terre.
 
-Nous cultivons des pivoines de qualité supérieure qui célèbrent la beauté de chaque saison éphémère, depuis nos champs près des rives du lac Brome.
+Aujourd'hui, nous faisons pousser des pivoines dans nos champs avec le même soin et le même respect que nous mettons dans chaque produit. Une façon d'honorer la plante, sa symbolique, et ce qu'elle nous enseigne : prendre le temps, s'enraciner, et fleurir pleinement.
+
+### Section : Les racines de pivoines
+*Les racines de pivoines : là où la force prend racine et la beauté prépare son envol.*
 
 ### Notes de design
 - Photographie de style de vie (lifestyle photography)
 - Mise en page éditoriale chaleureuse
-- Mention du patrimoine loyaliste
+- Connexion avec JB SkinSavvi (la racine de pivoine dans les soins)
 
 ---
 
-## 3. Nos Pivoines
+## 3. Nos Pivoines / Magasiner
 
 ### Titre
-Nos Pivoines
+Magasiner des pivoines
 
-### Contenu
-Des classiques doubles rosées aux spectaculaires simples corail, nos pivoines sont cultivées avec un soin méticuleux. Chaque variété est sélectionnée pour sa beauté, son parfum et sa longévité — parfaite pour les mariages, les événements et les moments d'élégance du quotidien.
+### Contenu d'introduction
+Des classiques doubles rosées aux spectaculaires simples corail, nos pivoines sont cultivées avec un soin méticuleux. Chaque variété est sélectionnée pour sa beauté, son parfum et sa longévité.
 
-### Structure de la galerie (pour chaque variété)
-- **Nom de la variété**
-- **Couleur**
-- **Période de floraison**
-- **Parfum** (léger / moyen / prononcé)
-- **Photo haute résolution**
+### Catalogue des variétés (racines — du site existant)
 
-### Notes de design
-- Galerie en grille masonry
-- Utiliser la classe CSS `hc-peony-gallery` et `hc-peony-card`
+| Variété | Hybrideur / Année | Prix | Statut |
+|---------|-------------------|------|--------|
+| Carl G. Klehm | Klehm, 2000 | 39,00 $ | Disponible |
+| Etched Salmon | Cousins/Klehm, 1981 | 86,00 $ | Disponible |
+| Felix Crousse | Crousse, 1881 | 35,00 $ | Disponible |
+| Monsieur Jules Elie | Crousse, 1888 | 35,00 $ | Disponible |
+| Avalanche | — | 42,00 $ | Disponible |
+| Bridal Icing | Klehm, 1975 | 50,00 $ | Disponible |
+| Catharina Fontijn | Van der Valk/Van der Zwet, 1952 | 34,00 $ | Disponible |
+| Cheddar Surprise | Klehm, R.G., 1980 | 38,00 $ | Disponible |
+| Coral Charm | Wissing, 1964 | 36,00 $ | Disponible |
+| Coral Sunset | Wissing, 1965 | 42,00 $ | Disponible |
+| Lemon Chiffon | Reath, 1981 | 57,00 $ | Disponible |
+| Marie Lemoine | Lemoine, 1869 | 48,00 $ | Disponible |
+| Miss America | Mann/Van Steen, 1936 | 34,00 $ | Épuisé |
+| Moon Rise | Saunders, 1949 | 40,00 $ | Épuisé |
+| Nancy Nora | Bernstein, 1942 | 35,00 $ | Disponible |
+| Nick Shaylor | Shaylor/Allison, 1931 | 40,00 $ | Disponible |
+| Primevere | Lemoine, 1907 | 35,00 $ | Disponible |
+| Princess Bride | Roy G. Klehm, 1988 | 48,00 $ | Disponible |
+| Raspberry Sundae | Klehm, 1968 | 45,00 $ | Disponible |
+| Red Charm | Glasscock, 1944 | 38,00 $ | Disponible |
+| Sarah Bernhardt | Lemoine, 1906 | 34,00 $ | Disponible |
+| Shirley Temple | — | 38,00 $ | Disponible |
+
+### Bouquets
+
+| Produit | Prix | Statut |
+|---------|------|--------|
+| Le bouquet Signature | 75,00 $ | Épuisé |
+
+### Catégories WooCommerce
+- Racines de pivoines
+- Bouquets
+
+### Notes
+- Les racines sont en prévente, expéditions à partir de mi-octobre
+- Les clients reçoivent un courriel quand la commande est expédiée ou prête pour la cueillette à la ferme
 
 ---
 
@@ -82,49 +116,61 @@ Nos pivoines fraîches sont disponibles de la fin mai au début juillet. Inscriv
 
 ---
 
-## 5. Pour les Fleuristes
+## 5. Contactez-nous / Pour les Fleuristes
 
 ### Titre
-Pour les Fleuristes
+Contactez-nous
 
-### Contenu
+### Coordonnées (du site existant)
+- **Adresse :** 20 Chemin Tibbits Hill, Knowlton, QC, J0E 1V0, Canada
+- **Téléphone :** 514-951-3205
+- **Courriel :** fermehillcrest@gmail.com
+- **Instagram :** @fermehillcrest
+
+### Section Fleuristes
 Êtes-vous fleuriste à la recherche de pivoines de première qualité cultivées localement ? Nous approvisionnons des fleuristes professionnels dans les Cantons-de-l'Est et au-delà.
 
 Contactez-nous pour discuter des disponibilités, des tarifs et des commandes minimales.
 
 ### Champs du formulaire de contact (Contact Form 7)
 1. **Nom complet** (texte, requis)
-2. **Nom de l'entreprise** (texte, requis)
+2. **Nom de l'entreprise** (texte, optionnel — requis pour fleuristes)
 3. **Courriel** (email, requis)
 4. **Téléphone** (tél, optionnel)
-5. **Volume hebdomadaire souhaité** (texte, optionnel)
-6. **Message** (textarea, requis)
+5. **Message** (textarea, requis)
 
 ### Code Contact Form 7 suggéré
 ```
 [text* your-name placeholder "Nom complet"]
-[text* business-name placeholder "Nom de l'entreprise"]
+[text business-name placeholder "Nom de l'entreprise"]
 [email* your-email placeholder "Courriel"]
 [tel your-phone placeholder "Téléphone"]
-[text weekly-volume placeholder "Volume hebdomadaire souhaité"]
 [textarea* your-message placeholder "Votre message"]
 [submit "Envoyer"]
 ```
+
+### Notes de design
+- Google Maps intégré avec l'adresse de la ferme
+- Formulaire de contact élégant
 
 ---
 
 ## 6. Racines de Pivoines
 
 ### Titre
-Racines de Pivoines
+Les racines de pivoines
+
+### Accroche (du site existant)
+*Là où la force prend racine et la beauté prépare son envol.*
 
 ### Contenu
 Apportez la beauté de la Ferme Hillcrest dans votre propre jardin. Chaque automne, nous offrons une sélection soignée de racines de pivoines — idéales pour les jardiniers qui souhaitent profiter de ces magnifiques fleurs pendant des décennies.
 
-Les quantités sont limitées ; la précommande est fortement recommandée.
+Les quantités sont limitées ; la précommande est fortement recommandée. Les expéditions commencent à la mi-octobre.
 
 ### Notes de design
-- Produits WooCommerce, actifs fin été–automne seulement
+- Produits WooCommerce (voir catalogue dans la section 3)
+- Actifs fin été–automne seulement
 - Guide de plantation téléchargeable en PDF (à créer)
 
 ---
@@ -134,10 +180,12 @@ Les quantités sont limitées ; la précommande est fortement recommandée.
 ### Titre
 JB SkinSavvi & Boutique
 
-### Contenu
-La beauté de nos pivoines ne s'arrête pas au champ. Pendant la saison de floraison, des bouquets frais de la Ferme Hillcrest sont disponibles chez JB SkinSavvi — notre boutique de soins de la peau au cœur du village de Knowlton.
+### Contenu (enrichi avec le contexte du site existant)
+Tout a commencé avec la racine de pivoine, précieuse alliée que nous utilisons dans nos soins chez JB SkinSavvi — notre boutique de soins de la peau au cœur du village de Knowlton.
 
-JB SkinSavvi propose également une gamme de produits de soins inspirés de la pivoine, élaborés avec le même soin que nous apportons à notre ferme. Visitez-nous en boutique ou explorez la collection sur [jbskinsavvi.com](https://jbskinsavvi.com).
+Pendant la saison de floraison, des bouquets frais de la Ferme Hillcrest sont disponibles en boutique. JB SkinSavvi propose également une gamme de produits de soins inspirés de la pivoine, élaborés avec le même soin que nous apportons à notre ferme.
+
+Visitez-nous en boutique ou explorez la collection sur [jbskinsavvi.com](https://jbskinsavvi.com).
 
 ### Notes de design
 - Lien jbskinsavvi.com ouvre dans un nouvel onglet (`target="_blank" rel="noopener"`)
@@ -149,10 +197,14 @@ JB SkinSavvi propose également une gamme de produits de soins inspirés de la p
 ## 8. Infolettre
 
 ### Titre
-Infolettre
+Recevoir des nouvelles de la ferme
 
-### Contenu
-Soyez parmi les premiers à savoir quand nos pivoines sont en fleur. Inscrivez-vous à notre infolettre pour recevoir des mises à jour saisonnières, des annonces de floraison et des offres exclusives de la Ferme Hillcrest.
+### Contenu (du site existant)
+Envie de suivre la floraison, connaître les variétés en bouquet, ou être les premiers informés de nos événements saisonniers ?
+
+Inscrivez-vous à notre infolettre pour recevoir, de temps à autre, une bouffée de fleurs, de nature et de nouvelles fraîches, directement dans votre boîte courriel.
+
+*Promis, que du beau.*
 
 ### Notes de design
 - Formulaire d'inscription par courriel (MailPoet)
@@ -161,11 +213,31 @@ Soyez parmi les premiers à savoir quand nos pivoines sont en fleur. Inscrivez-v
 
 ---
 
-## 9. Réseaux Sociaux
+## 9. La vie parmi les pivoines (Galerie / Réseaux Sociaux)
+
+### Titre
+La vie parmi les pivoines
 
 ### Contenu
 Suivez la Ferme Hillcrest sur les réseaux sociaux pour découvrir les coulisses de notre ferme, des photos de nos pivoines en fleur et les dernières nouvelles de la saison.
 
+### Réseaux sociaux
+- **Instagram :** [@fermehillcrest](https://instagram.com/fermehillcrest)
+
 ### Notes de design
-- Icônes Instagram et Facebook dans le pied de page
+- Galerie de photos de la ferme et des pivoines
+- Icône Instagram dans le pied de page
 - Optionnel : flux Instagram intégré sur la page d'accueil (plugin Smash Balloon)
+
+---
+
+## Pied de page (Footer) — Global
+
+### Contenu
+- Liens : Magasiner, Notre histoire, Contactez-nous, La vie parmi les pivoines
+- Formulaire d'inscription à l'infolettre
+- Coordonnées : 20 Chemin Tibbits Hill, Knowlton, QC, J0E 1V0
+- Téléphone : 514-951-3205
+- Courriel : fermehillcrest@gmail.com
+- Instagram : @fermehillcrest
+- © Ferme Hillcrest 2026
